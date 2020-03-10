@@ -1,0 +1,5 @@
+---
+layout: post
+title: "Test Post"
+---
+This is a test post to see how things look when it's added to the site.
