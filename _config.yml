@@ -14,9 +14,10 @@ description: "\"HTML minimalism is next to Godliness.\""
 show_excerpts: true
 # email: tom@tomrusso.org # consider adding this.
 
+
 ##################
 # Build settings #
 ##################
-theme: minima
-plugins:
-  - jekyll-feed
+# theme: minima
+#plugins:
+#  - jekyll-feed
