@@ -9,8 +9,8 @@
 # Site config settings #
 ########################
 title: tom russo . org
-author: The collected works of Thomas Russo
-description: "\"HTML minimalism is next to Godliness.\""
+description: The collected works of Thomas Russo
+tagline: "&ldquo;HTML minimalism is next to Godliness.&rdquo;"
 show_excerpts: true
 # email: tom@tomrusso.org # consider adding this.
 
