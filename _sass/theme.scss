@@ -26,6 +26,9 @@ $content-width:    800px !default;
 $on-palm:          600px !default;
 $on-laptop:        800px !default;
 
+// Whether or not to collapse the nav bar to a menu on mobile
+$mobile-nav-menu: false;
+
 // Use media queries like this:
 // @include media-query($on-palm) {
 //   .wrapper {

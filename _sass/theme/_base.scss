@@ -1,19 +1,21 @@
-/**
+/*
  * Reset some basic elements
  */
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
-dl, dd, ol, ul, figure {
+dl, dd, ol, ul, figure
+{
   margin: 0;
   padding: 0;
 }
 
 
 
-/**
+/*
  * Basic styling
  */
-body {
+body
+{
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
   color: $text-color;
   background-color: $background-color;
@@ -30,105 +32,120 @@ body {
 
 
 
-/**
+/*
  * Set `margin-bottom` to maintain vertical rhythm
  */
 h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
-%vertical-rhythm {
+%vertical-rhythm
+{
   margin-bottom: $spacing-unit / 2;
 }
 
 
 
-/**
+/*
  * `main` element
  */
-main {
+main
+{
   display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */
 }
 
 
 
-/**
+/*
  * Images
  */
-img {
+img
+{
   max-width: 100%;
   vertical-align: middle;
 }
 
 
 
-/**
+/*
  * Figures
  */
-figure > img {
+figure > img
+{
   display: block;
 }
 
-figcaption {
+figcaption
+{
   font-size: $small-font-size;
 }
 
 
 
-/**
+/*
  * Lists
  */
-ul, ol {
+ul, ol
+{
   margin-left: $spacing-unit;
 }
 
-li {
+li
+{
   > ul,
-  > ol {
+  > ol
+  {
     margin-bottom: 0;
   }
 }
 
 
 
-/**
+/*
  * Headings
  */
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6
+{
   font-weight: $base-font-weight;
 }
 
 
 
-/**
+/*
  * Links
  */
-a {
+a
+{
   color: $brand-color;
   text-decoration: none;
 
-  &:visited {
+  &:visited
+  {
     color: darken($brand-color, 15%);
   }
 
-  &:hover {
+  &:hover
+  {
     color: $text-color;
     text-decoration: underline;
   }
 
-  .social-media-list &:hover {
+  .social-media-list &:hover
+  {
     text-decoration: none;
 
-    .username {
+    .username
+    {
       text-decoration: underline;
     }
   }
 }
 
 
-/**
+/*
  * Blockquotes
  */
-blockquote {
+blockquote
+{
   color: $grey-color;
   border-left: 4px solid $grey-color-light;
   padding-left: $spacing-unit / 2;
@@ -136,33 +153,38 @@ blockquote {
   letter-spacing: -1px;
   font-style: italic;
 
-  > :last-child {
+  > :last-child
+  {
     margin-bottom: 0;
   }
 }
 
 
 
-/**
+/*
  * Code formatting
  */
 pre,
-code {
+code
+{
   @include relative-font-size(0.9375);
   border: 1px solid $grey-color-light;
   border-radius: 3px;
   background-color: #eef;
 }
 
-code {
+code
+{
   padding: 1px 5px;
 }
 
-pre {
+pre
+{
   padding: 8px 12px;
   overflow-x: auto;
 
-  > code {
+  > code
+  {
     border: 0;
     padding-right: 0;
     padding-left: 0;
@@ -171,10 +193,11 @@ pre {
 
 
 
-/**
+/*
  * Wrapper
  */
-.wrapper {
+.wrapper
+{
   max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
   max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
   margin-right: auto;
@@ -183,7 +206,8 @@ pre {
   padding-left: $spacing-unit;
   @extend %clearfix;
 
-  @include media-query($on-laptop) {
+  @include media-query($on-laptop)
+  {
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
     max-width:         calc(#{$content-width} - (#{$spacing-unit}));
     padding-right: $spacing-unit / 2;
@@ -193,10 +217,11 @@ pre {
 
 
 
-/**
+/*
  * Clearfix
  */
-%clearfix:after {
+%clearfix:after
+{
   content: "";
   display: table;
   clear: both;
@@ -204,11 +229,12 @@ pre {
 
 
 
-/**
+/*
  * Icons
  */
 
-.svg-icon {
+.svg-icon
+{
     width: 16px;
     height: 16px;
     display: inline-block;
@@ -217,38 +243,46 @@ pre {
     vertical-align: text-top;
 }
 
-.social-media-list {
-  li + li {
+.social-media-list
+{
+  li + li
+  {
     padding-top: 5px;
   }
 }
 
 
 
-/**
+/*
  * Tables
  */
-table {
+table
+{
   margin-bottom: $spacing-unit;
   width: 100%;
   text-align: $table-text-align;
   color: lighten($text-color, 18%);
   border-collapse: collapse;
   border: 1px solid $grey-color-light;
-  tr {
-    &:nth-child(even) {
+  tr
+  {
+    &:nth-child(even)
+    {
       background-color: lighten($grey-color-light, 6%);
     }
   }
-  th, td {
+  th, td
+  {
     padding: ($spacing-unit / 3) ($spacing-unit / 2);
   }
-  th {
+  th
+  {
     background-color: lighten($grey-color-light, 3%);
     border: 1px solid darken($grey-color-light, 4%);
     border-bottom-color: darken($grey-color-light, 12%);
   }
-  td {
+  td
+  {
     border: 1px solid $grey-color-light;
   }
 }
