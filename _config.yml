@@ -19,6 +19,5 @@ email: tom@tomrusso.org
 ##################
 # Build settings #
 ##################
-# theme: minima
-#plugins:
-#  - jekyll-feed
+
+# Currently none needed.
