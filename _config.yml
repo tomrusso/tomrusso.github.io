@@ -8,12 +8,24 @@
 ########################
 # Site config settings #
 ########################
-title: tom&thinsp;&thinsp;russo . org
+title: tom russo . org
 description: The collected works of Thomas Russo
 tagline: "&ldquo;HTML minimalism is next to Godliness.&rdquo;"
 show_excerpts: true
 date_format: "%d %b %Y"
 email: tom@tomrusso.org
+
+
+############
+# Defaults #
+############
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
 
 
 ##################
