@@ -1,6 +1,8 @@
-######################
-## Minimal Gemfile. ##
-######################
+#######################
+#######################
+##  Minimal Gemfile  ##
+#######################
+#######################
 
 # All we need is the gem source, the jekyll gem, and the jekyll-compose gem for
 # support drafting and publishing posts.
