@@ -132,13 +132,17 @@
 .site-footer
 {
   border-top: 1px solid $grey-color-light;
-  padding: $spacing-unit 0;
+  padding-top: $spacing-unit / 2;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .footer-heading
 {
   @include relative-font-size(1.125);
   margin-bottom: $spacing-unit / 2;
+  color: $grey-color-dark;
 }
 
 .footer-col-wrapper
@@ -198,6 +202,17 @@
   {
     padding-left: 0;
   }
+}
+
+
+/*
+ * Copyright notice.
+ */
+.copyright
+{
+  @include relative-font-size(0.875);
+  background-color: $grey-color-dark;
+  color: $background-color;
 }
 
 
