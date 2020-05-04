@@ -7,8 +7,10 @@ permalink: /about/
 ---
 ## About me
 I'm Tom Russo, and this is my website.  After working in tech for many years, I left the industry
-in 2018 to become a doctor.  You can contact me by email at [{{ site.email }}][general-email], and
-you can find me [here on GitHub][github-account].
+in 2018 to become a doctor.  I'm currently a first year med student at [Wayne State University][wsu],
+which is located in [Detroit, Michigan, USA][wsu-med-map].  You can contact me by email at
+[{{ site.email }}][general-email], and you can find me [here on GitHub][github-account].  If you'd
+like, you can read [my resum&eacute;][my-resume].
 <br>
 <br>
 
@@ -30,8 +32,11 @@ separated from the content.  You are free to copy the template code, deploy it, 
 Although I'm happy to entertain offers, I'm not actively looking for work, and I currently have very little
 free time. That said, if you'd like to send a proposal, please send email to [tom@tomrusso.org][project-email].
 
+[wsu]: https://med.wayne.edu
+[wsu-med-map]: https://www.google.com/maps/place/School+of+Medicine+-+Wayne+State+University/@42.3542575,-83.0595415,17z/data=!3m1!4b1!4m5!3m4!1s0x8824d3f14bab5091:0xb1538028656828d5!8m2!3d42.3542575!4d-83.0573528
 [general-email]: mailto:{{ site.email }}
 [github-account]: https://github.com/tomrusso
+[my-resume]: {{ site.baseurl }}/Thomas Russo Resume.pdf
 [jekyll-project]: https://jekyllrb.com
 [github-pages]: https://pages.github.com
 [minima-theme]: https://github.com/jekyll/minima
