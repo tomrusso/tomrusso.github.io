@@ -11,9 +11,10 @@
 title: tom russo . org
 description: The collected works of Thomas Russo
 tagline: "&ldquo;HTML minimalism is next to Godliness.&rdquo;"
+email: tom@tomrusso.org
+copyright_holder: Thomas Russo
 show_excerpts: true
 date_format: "%d %b %Y"
-email: tom@tomrusso.org
 
 
 ############
