@@ -8,7 +8,7 @@
   border-bottom: 1px solid $grey-color-light;
   min-height: $spacing-unit * 1.865;
 
-  // Positioning context for the mobile navigation icon.
+  // Make the header sticky.
   position: -webkit-sticky;
   position: sticky;
   top: 0;
