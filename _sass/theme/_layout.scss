@@ -9,7 +9,10 @@
   min-height: $spacing-unit * 1.865;
 
   // Positioning context for the mobile navigation icon.
-  position: relative;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: $background-color;
 }
 
 .site-title
