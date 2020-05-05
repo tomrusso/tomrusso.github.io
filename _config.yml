@@ -14,6 +14,7 @@ email: tom@tomrusso.org
 copyright_holder: Thomas Russo
 show_excerpts: true
 date_format: "%d %b %Y"
+paginate: 5
 
 
 ############
@@ -99,6 +100,7 @@ taglines:
   - "The future is promised to no one."
   - "Life is not a dress rehearsal."
 # - Quotes must be (roughly) this short ------>|
+# - (But you need to test that they don't split)
 
 
 ############
@@ -117,4 +119,5 @@ defaults:
 # Build settings #
 ##################
 
-# Currently none needed.
+plugins:
+  - jekyll-paginate

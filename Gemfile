@@ -8,4 +8,5 @@
 # support drafting and publishing posts.
 source "https://rubygems.org"
 gem "jekyll", "~> 4.0.0"
+gem "jekyll-paginate", group: [:jekyll_plugins]
 gem 'jekyll-compose', group: [:jekyll_plugins]

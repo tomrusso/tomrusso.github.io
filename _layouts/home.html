@@ -8,7 +8,7 @@ layout: default
 
   {%- if site.posts.size > 0 -%}
     <ul class="post-list">
-      {%- for post in site.posts -%}
+      {%- for post in paginator.posts -%}
       <li>
         {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
@@ -23,6 +23,21 @@ layout: default
       </li>
       {%- endfor -%}
     </ul>
+
+    {%- if paginator.previous_page or paginator.next_page -%}
+      <div class="next-prev">
+        {%- if paginator.previous_page -%}
+          <div class="prev">
+            <a href="{{ paginator.previous_page_path }}">&larr; Previous</a>
+          </div>
+        {%- endif -%}
+        {%- if paginator.next_page -%}
+          <div class="next">
+            <a href="{{ paginator.next_page_path }}">Next &rarr;</a>
+          </div>
+        {%- endif -%}
+      </div>
+    {%- endif -%}
   {%- endif -%}
 
 </div>
