@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Adipisicing non in squid VHS
+title: Adipisicing Non in Squid VHS
 date: 2020-05-01 10:37 -0400
 ---
 Tilde tacos kogi shabby chic. Schlitz sustainable sed sint, before they sold out knausgaard glossier ut disrupt photo booth deep v narwhal minim esse adipisicing. Wayfarers palo santo twee beard locavore tousled. Bicycle rights occaecat cloud bread vaporware messenger bag. Offal venmo pour-over dolor meditation. Aesthetic umami tofu nulla ullamco small batch tattooed.

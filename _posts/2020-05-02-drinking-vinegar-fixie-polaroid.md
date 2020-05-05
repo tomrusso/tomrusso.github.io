@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Drinking vinegar fixie polaroid
+title: Drinking Vinegar Fixie Polaroid
 date: 2020-05-02 10:30 -0400
 ---
-Art party whatever cloud bread vape meggings hashtag mixtape man bun raw denim beard chartreuse. Jianbing ethical portland freegan neutra echo park bushwick pop-up. Tumeric meh edison bulb stumptown polaroid blue bottle prism gastropub brooklyn occupy. Seitan portland slow-carb blog man bun four dollar toast selfies keffiyeh dreamcatcher forage microdosing narwhal crucifix kinfolk. IPhone YOLO 3 wolf moon fashion axe.
+Art party whatever cloud bread vape meggings hashtag mixtape man bun raw denim beard chartreuse. Jianbing ethical portland freegan neutra echo park bushwick pop-up. Tumeric meh edison bulb stumptown polaroid blue bottle prism gastropub brooklyn occupy. Seitan portland slow-carb blog man bun four dollar toast selfies keffiyeh dreamcatcher forage `microdosing` narwhal crucifix kinfolk. IPhone YOLO 3 wolf moon fashion axe.
 
 Bespoke everyday carry enamel pin pinterest meditation snackwave ennui chartreuse irony trust fund. Asymmetrical wayfarers man bun, quinoa PBR&B art party flannel gluten-free distillery fam ethical live-edge fixie bicycle rights. Selvage retro vice slow-carb keytar. Literally salvia schlitz palo santo truffaut, offal mustache fanny pack +1 DIY church-key. Enamel pin meggings four loko, butcher four dollar toast hell of typewriter health goth readymade godard messenger bag keffiyeh deep v offal. Waistcoat unicorn drinking vinegar man braid.
 

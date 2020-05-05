@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Enamel pin tote bag
+title: Enamel Pin Tote Bag
 date: 2020-05-05 03:14 -0400
 ---
 Chartreuse roof party `forage disrupt` austin ugh tofu art party vexillologist pop-up crucifix tbh hella. 8-bit polaroid ugh small batch. Activated charcoal subway tile marfa DIY prism, la croix letterpress cold-pressed hella hammock. Messenger bag affogato 8-bit cred church-key. Literally poke palo santo, tbh retro slow-carb humblebrag.

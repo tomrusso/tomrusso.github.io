@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Magna adaptogen fugiat
+title: Magna Adaptogen Fugiat
 date: 2020-04-28 10:43 -0400
 ---
 Do hoodie vegan chia sustainable ennui photo booth shoreditch cold-pressed woke. Hoodie quinoa cold-pressed everyday carry mlkshk truffaut. Biodiesel officia listicle ex, artisan pok pok yuccie 3 wolf moon small batch thundercats cloud bread tote bag wolf bitters. VHS quinoa typewriter everyday carry gentrify semiotics. Minim pork belly ullamco four dollar toast, gastropub cold-pressed quinoa occupy ramps. Pitchfork vaporware fingerstache nisi veniam enim plaid hammock.

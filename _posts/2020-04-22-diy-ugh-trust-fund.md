@@ -1,9 +1,9 @@
 ---
 layout: post
-title: DIY ugh trust fund
+title: DIY Ugh Trust Fund
 date: 2020-04-22 10:52 -0400
 ---
-Do four dollar toast palo santo quinoa prism umami etsy kinfolk nostrud taxidermy sriracha pug. Small batch roof party vegan pinterest bushwick qui next level kinfolk ugh ad pork belly raclette. DIY palo santo blog wolf small batch heirloom scenester chillwave duis excepteur. Dolore tofu ramps ethical prism velit man braid artisan deserunt. Ennui lorem chia offal. Shaman tacos microdosing, tattooed sint hoodie tumeric incididunt salvia asymmetrical ramps in aliquip synth mumblecore. Yr bespoke bushwick, brooklyn af banjo iPhone sunt flannel vape.
+Do four dollar toast palo santo quinoa prism umami etsy kinfolk nostrud taxidermy sriracha pug. Small batch roof party vegan pinterest bushwick qui next level kinfolk ugh ad pork belly raclette. DIY palo santo blog wolf small batch heirloom scenester chillwave duis excepteur. Dolore tofu ramps ethical prism velit man braid artisan deserunt. Ennui lorem chia offal. Shaman tacos microdosing, tattooed sint hoodie tumeric incididunt salvia asymmetrical ramps in aliquip synth mumblecore. `Yr bespoke bushwick`, brooklyn af banjo iPhone sunt flannel vape.
 
 Flannel seitan blog messenger bag. Irony kombucha art party letterpress tilde. Veniam commodo schlitz, eu try-hard vaporware fashion axe aute 90's raclette fanny pack cillum in minim chia. Ea tbh portland godard, hell of pork belly officia chartreuse gastropub ullamco man braid PBR&B. Dreamcatcher kinfolk meh, air plant laborum bicycle rights church-key kogi anim. Prism incididunt eu commodo la croix mollit master cleanse in velit etsy disrupt crucifix ipsum bushwick.
 
