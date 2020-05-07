@@ -8,99 +8,14 @@
 ########################
 # Site config settings #
 ########################
-title: tom russo . org
+text_title: tom russo . org
+html_title: tom&#8201;&#8201;russo&#8197;.&#8197;&#8202;org
 description: The collected works of Thomas Russo
 email: tom@tomrusso.org
 copyright_holder: Thomas Russo
 show_excerpts: true
 date_format: "%d %b %Y"
 paginate: 5
-
-
-############
-# Taglines #
-############
-
-# One of these taglines is randomly chosen each time the site is generated.
-# These should probbably be migrated into a file in the _data directory.
-# Also consider creating structured data to generate a page with my commentary
-# on these quotations and their meanings.
-#
-# Most of these come from here: https://wisdomquotes.com/short-quotes/
-
-taglines:
-  - "HTML minimalism is next to Godliness."
-  - "Change the world by being yourself."
-  - "Die with memories, not dreams."
-  - "Everything you can imagine is real."
-  - "What we think, we become."
-  - "Be so good they can't igore you."
-  - "Yesterday you said tomorrow. Just do it."
-  - "To live will be an awfully big adventure."
-  - "Try to be a rainbow in someone's cloud."
-  - "Turn your wounds into wisdom."
-  - "It hurt because it mattered."
-  - "When words fail music speaks."
-  - "Try again. Fail again. Fail better."
-  - "He who is brave is free."
-  - "My life is my message."
-  - "Fall seven times, stand up eight."
-  - "We rise by lifting others."
-  - "If youth knew; if age could."
-  - "Irony is the shackles of youth."
-  - "The fool wonders, the wise man asks."
-  - "Different doesn't mean wrong."
-  - "Where's your will to be weird?"
-  - "Freedom lies in being bold."
-  - "The less I needed, the better I felt."
-  - "Do less. Be more."
-  - "There is beauty in simplicity."
-  - "A beautiful thing is never perfect."
-  - "Brevity is the soul of wit."
-  - "Stop the glorification of busy."
-  - "Simplicity is the soul of efficiency."
-  - "Once you need less, you will have more."
-  - "Enough is abundance to the wise."
-  - "Truth is a pathless land."
-  - "If you judge, investigate."
-  - "Doubt grows with knowledge."
-  - "Doubt is the origin of wisdom."
-  - "Listen to many, speak to a few."
-  - "A closed mouth catches no flies."
-  - "Never confuse motion with action."
-  - "Do what is right, not what is easy."
-  - "Silence is true wisdom's best reply."
-  - "To find yourself, think for yourself."
-  - "It's better to travel well than to arrive."
-  - "Courage doesn't always roar."
-  - "Still waters run deep."
-  - "Persevere and get it done."
-  - "Our whole life is solving puzzles."
-  - "Life is short and progress is slow."
-  - "No great thing is created suddenly."
-  - "Go wild, for a while."
-  - "Be wild while you still can."
-  - "The doer alone learneth."
-  - "Don't be busy, be productive."
-  - "Work to become, not to acquire."
-  - "Leadership is influence."
-  - "Be groovy or leave, man."
-  - "Don't find fault, find a remedy."
-  - "The greatest remedy for anger is delay."
-  - "Showing off is the fool’s idea of glory."
-  - "Easy reading is damn hard writing."
-  - "The first draft of anything is shit."
-  - "That's not writing. That's typing."
-  - "Change before you have to."
-  - "A goal without a plan is just a wish."
-  - "Fear makes the wolf bigger than he is."
-  - "Fear tricks us into living a boring life."
-  - "Failure’s a natural part of life."
-  - "Avoiding failure is to avoid progress."
-  - "The future is promised to no one."
-  - "Life is not a dress rehearsal."
-# - Quotes must be (roughly) this short ------>|
-# - (But you need to test that they don't split)
 
 
 ############
