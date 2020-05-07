@@ -8,10 +8,11 @@ Chartreuse roof party `forage disrupt` austin ugh tofu art party vexillologist p
 Poutine put a bird on it heirloom 90's raclette yuccie. Fixie cornhole austin readymade brunch man bun. Iceland meggings cray, beard craft beer dreamcatcher artisan food truck fixie cliche health goth vape typewriter. Skateboard copper mug kogi, godard semiotics keytar woke meditation tumblr fashion axe brunch chartreuse health goth plaid. Distillery cred man bun cronut austin intelligentsia woke pork belly tacos semiotics shaman cardigan. Af letterpress narwhal vegan cold-pressed, la croix godard cronut. Mlkshk drinking vinegar synth tumblr poke.
 
 {%- highlight python -%}
-def add_one(x):
+def increment_before_it_was_cool(x):
   artisanal_one = 1
   non_sold_out_variable = x
-  return non_sold_out_variable + artisanal_one
+  ironic_add = lambda la, croix: la + croix
+  return ironic_add(non_sold_out_variable, artisanal_one)
 {%- endhighlight -%}
 
 Street art fam taxidermy fashion axe raclette tattooed waistcoat pug etsy tilde neutra DIY adaptogen. Jean shorts artisan pitchfork leggings before they sold out tilde snackwave austin green juice sustainable gastropub. Food truck blue bottle succulents yuccie. Biodiesel locavore humblebrag fingerstache.
