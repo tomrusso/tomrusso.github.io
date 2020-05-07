@@ -36,7 +36,7 @@ free time. That said, if you'd like to send a proposal, please send email to [to
 [wsu-med-map]: https://www.google.com/maps/place/School+of+Medicine+-+Wayne+State+University/@42.3542575,-83.0595415,17z/data=!3m1!4b1!4m5!3m4!1s0x8824d3f14bab5091:0xb1538028656828d5!8m2!3d42.3542575!4d-83.0573528
 [general-email]: mailto:{{ site.email }}
 [github-account]: https://github.com/tomrusso
-[my-resume]: {{ site.baseurl }}/Thomas Russo Resume.pdf
+[my-resume]: {{ site.baseurl }}/Thomas-Russo-Resume.pdf
 [jekyll-project]: https://jekyllrb.com
 [github-pages]: https://pages.github.com
 [minima-theme]: https://github.com/jekyll/minima
