@@ -12,9 +12,9 @@
  %  Render the site title, surrounded by asterisks
  %  ==============================================
 {%- endcomment -%}
-{%- assign border_length = site.title | size | plus: 6 -%}
+{%- assign border_length = site.text_title | size | plus: 6 -%}
 {% for _ in (1..border_length) -%}*{%- endfor %}
-{{ "** " | append: site.title | append: " **" }}
+{{ "** " | append: site.text_title | append: " **" }}
 {% for _ in (1..border_length) -%}*{%- endfor -%}
 
 {%-  comment -%}
