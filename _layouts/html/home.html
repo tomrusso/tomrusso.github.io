@@ -1,0 +1,35 @@
+---
+layout: html/default
+---
+{{ content }}
+
+{%- if site.posts.size > 0 -%}
+  {%- for post in paginator.posts -%}
+  <li>
+    {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
+    <p>{{ post.date | date: date_format }}</p>
+    <h2><a href="{{ post.url | relative_url }}">
+        {{ post.title | escape }}
+      </a>
+    </h3>
+    {%- if site.show_excerpts -%}
+      {{ post.excerpt }}
+    {%- endif -%}
+  </li>
+  {%- endfor -%}
+
+  {%- if paginator.previous_page or paginator.next_page -%}
+    <div class="next-prev">
+      {%- if paginator.previous_page -%}
+        <div class="prev">
+          <a href="{{ paginator.previous_page_path }}">&larr; Previous</a>
+        </div>
+      {%- endif -%}
+      {%- if paginator.next_page -%}
+        <div class="next">
+          <a href="{{ paginator.next_page_path }}">Next &rarr;</a>
+        </div>
+      {%- endif -%}
+    </div>
+  {%- endif -%}
+{%- endif -%}

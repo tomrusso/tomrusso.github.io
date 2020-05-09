@@ -1,0 +1,10 @@
+<h1>{{ site.text_title }}</h1>
+<hr>
+{%- comment -%} Generate the list of nav bar pages and populate the nav bar. {%- endcomment -%}
+{%- assign nav_bar_pages = site.pages | where: "show_in_text_nav_bar", true | sort: "nav_bar_order" -%}
+<ul>
+  {%- for page in nav_bar_pages -%}
+    <li><a class="page-link" href="{{ page.url | relative_url }}">{{ page.title | escape }}</a>
+  {%- endfor -%}
+</ul>
+<hr>
