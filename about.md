@@ -6,6 +6,7 @@ nav_bar_order: 1
 permalink: /about/
 ---
 ## About me
+![Tom Russo headshot](/assets/me.jpg#right-third)
 I'm Tom Russo, and this is my website.  After working in tech for many years, I left the industry
 in 2018 to become a doctor.  You can contact me by email at [{{ site.email }}][general-email], and
 you can find me [here on GitHub][github-account].
