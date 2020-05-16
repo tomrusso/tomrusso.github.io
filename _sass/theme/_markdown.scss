@@ -74,13 +74,16 @@
 	img[src$="#left-half"],
 	img[src$="#right-quarter"],
 	img[src$="#right-third"],
-	img[src$="#right-half"]
+	img[src$="#right-half"],
+	img[src$="#center-quarter"],
+	img[src$="#center-third"],
+	img[src$="#center-half"]
 	{
 		border: 1px solid $grey-color-dark;
 		border-radius: 10px;
 	}
 
-	// Specify alignment and margin for left-floating images.
+	// Left align images with float:left, and set right margin.
 	img[src$="#left-quarter"],
 	img[src$="#left-third"],
 	img[src$="#left-half"]
@@ -89,7 +92,7 @@
 		margin-right: $spacing-unit / 2;
 	}
 
-	// Specify alignment and margin for right-floating images.
+	// Right align images with float:right and set left margin.
 	img[src$="#right-quarter"],
 	img[src$="#right-third"],
 	img[src$="#right-half"]
@@ -98,23 +101,36 @@
 		margin-left: $spacing-unit / 2;
 	}
 
+	// Center align images
+	img[src$="#center-quarter"],
+	img[src$="#center-third"],
+	img[src$="#center-half"]
+	{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
 	// Specify width for quarter-width images.
 	img[src$="#left-quarter"],
-	img[src$="#right-quarter"]
+	img[src$="#right-quarter"],
+	img[src$="#center-quarter"]
 	{
 		width: 25%;		
 	}
 
 	// Specify width for third-width images.
 	img[src$="#left-third"],
-	img[src$="#right-third"]
+	img[src$="#right-third"],
+	img[src$="#center-third"]
 	{
 		width: 33%;		
 	}
 
 	// Specify width for half-width images.
 	img[src$="#left-half"],
-	img[src$="#right-half"]
+	img[src$="#right-half"],
+	img[src$="#center-half"]
 	{
 		width: 50%;		
 	}
