@@ -2,7 +2,7 @@
   <div class="wrapper">
 
     <!-- Footer heading -->
-    <h2 class="footer-heading">{{ site.title }}</h2>
+    <h2 class="footer-heading">{{ site.html_title }}</h2>
     <div class="footer-col-wrapper">
 
       <!-- Left footer column -->
@@ -20,6 +20,6 @@
 
       <!-- Copyright notice -->
   <div class="copyright">
-    <div style="text-align: center;">&copy; 2020 {{ site.copyright_holder }}</div>
+    <div style="text-align: center;">&copy; {% include copyright.txt %}</div>
   </div>
 </footer>

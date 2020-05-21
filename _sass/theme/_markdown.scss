@@ -1,0 +1,153 @@
+/********************
+ * Markdown Styling *
+ ********************/
+
+.markdown-content
+{
+	/*
+	 * Basics
+	 */
+  
+	// Set the bottom margin.
+	margin-bottom: $spacing-unit;
+
+	// Make images expand the paragraph that contains them.
+	p
+	{
+		overflow: auto;
+	}
+
+	// Style the headings.
+  h1
+  {
+    @include relative-font-size(2.625);
+
+    @include media-query($on-laptop)
+    {
+      @include relative-font-size(2.25);
+    }
+  }
+
+  h2
+  {
+    @include relative-font-size(2);
+
+    @include media-query($on-laptop)
+    {
+      @include relative-font-size(1.75);
+    }
+  }
+
+  h3
+  {
+    @include relative-font-size(1.625);
+
+    @include media-query($on-laptop)
+    {
+      @include relative-font-size(1.375);
+    }
+  }
+
+  h4
+  {
+    @include relative-font-size(1.25);
+
+    @include media-query($on-laptop)
+    {
+      @include relative-font-size(1.125);
+    }
+  }	
+
+
+  /*
+   * Images
+	 * ======
+	 * Images in markdown can be styled with the url fragment.  The fragment string has
+	 * the format <alignment>-<size> where <alignment> is "left", "right", or "center",
+	 * and size is quarter", "third", or "half".  For example, #right-third floats the
+	 * image right and gives it a width equal to one third the width of the container.
+   */
+
+  // Style applied to all images.
+  img
+  {
+		box-sizing: border-box;  // Prevents border from overflowing container.
+		border: 1px solid $gray-color;
+		border-radius: 3px;
+  }
+
+	// Left align images with float:left, and set right margin.
+	img[src$="#left-quarter"],
+	img[src$="#left-third"],
+	img[src$="#left-half"],
+	img[src$="#left-twothirds"],
+	img[src$="#left-threequarters"]
+	{
+		float: left;
+		margin-right: $spacing-unit / 2;
+	}
+
+	// Right align images with float:right and set left margin.
+	img[src$="#right-quarter"],
+	img[src$="#right-third"],
+	img[src$="#right-half"],
+	img[src$="#right-twothirds"],
+	img[src$="#right-threequarters"]
+	{
+		float: right;
+		margin-left: $spacing-unit / 2;
+	}
+
+	// Center align images using auto margins.  display:block displays the image by
+	// itself, without text wrapping around it.
+	img[src$="#center-quarter"],
+	img[src$="#center-third"],
+	img[src$="#center-half"],
+	img[src$="#center-twothirds"],
+	img[src$="#center-threequarters"]
+	{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	// Specify width for quarter-width images.
+	img[src$="#left-quarter"],
+	img[src$="#right-quarter"],
+	img[src$="#center-quarter"]
+	{
+		width: 25%;		
+	}
+
+	// Specify width for third-width images.
+	img[src$="#left-third"],
+	img[src$="#right-third"],
+	img[src$="#center-third"]
+	{
+		width: 33%;		
+	}
+
+	// Specify width for half-width images.
+	img[src$="#left-half"],
+	img[src$="#right-half"],
+	img[src$="#center-half"]
+	{
+		width: 50%;		
+	}
+
+	// Specify width for two-third-width images.
+	img[src$="#left-twothirds"],
+	img[src$="#right-twothirds"],
+	img[src$="#center-twothirds"]
+	{
+		width: 67%;		
+	}
+
+	// Specify width for three-quarter-width images.
+	img[src$="#left-threequarters"],
+	img[src$="#right-threequarters"],
+	img[src$="#center-threequarters"]
+	{
+		width: 75%;		
+	}
+}

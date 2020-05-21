@@ -6,6 +6,7 @@ nav_bar_order: 1
 permalink: /about/
 ---
 ## About me
+![Tom Russo headshot](/assets/me.jpg#right-third)
 I'm Tom Russo, and this is my website.  After working in tech for many years, I left the industry
 in 2018 to become a doctor.  I'm currently a first year med student at [Wayne State University][wsu],
 which is located in [Detroit, Michigan, USA][wsu-med-map].  You can contact me by email at

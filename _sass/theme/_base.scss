@@ -146,8 +146,8 @@ a
  */
 blockquote
 {
-  color: $grey-color;
-  border-left: 4px solid $grey-color-light;
+  color: $gray-color;
+  border-left: 4px solid $gray-color-light;
   padding-left: $spacing-unit / 2;
   @include relative-font-size(1.125);
   letter-spacing: -1px;
@@ -168,7 +168,7 @@ pre,
 code
 {
   @include relative-font-size(0.9375);
-  border: 1px solid $grey-color-light;
+  border: 1px solid $gray-color-light;
   border-radius: 3px;
   background-color: #eef;
 }
@@ -238,7 +238,7 @@ pre
     width: 16px;
     height: 16px;
     display: inline-block;
-    fill: #{$grey-color};
+    fill: #{$gray-color};
     padding-right: 5px;
     vertical-align: text-top;
 }
@@ -263,12 +263,12 @@ table
   text-align: $table-text-align;
   color: lighten($text-color, 18%);
   border-collapse: collapse;
-  border: 1px solid $grey-color-light;
+  border: 1px solid $gray-color-light;
   tr
   {
     &:nth-child(even)
     {
-      background-color: lighten($grey-color-light, 6%);
+      background-color: lighten($gray-color-light, 6%);
     }
   }
   th, td
@@ -277,12 +277,12 @@ table
   }
   th
   {
-    background-color: lighten($grey-color-light, 3%);
-    border: 1px solid darken($grey-color-light, 4%);
-    border-bottom-color: darken($grey-color-light, 12%);
+    background-color: lighten($gray-color-light, 3%);
+    border: 1px solid darken($gray-color-light, 4%);
+    border-bottom-color: darken($gray-color-light, 12%);
   }
   td
   {
-    border: 1px solid $grey-color-light;
+    border: 1px solid $gray-color-light;
   }
 }

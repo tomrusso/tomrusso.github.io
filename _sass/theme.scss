@@ -14,9 +14,9 @@ $text-color:       #111 !default;
 $background-color: #fdfdfd !default;
 $brand-color:      #2a7ae2 !default;
 
-$grey-color:       #828282 !default;
-$grey-color-light: lighten($grey-color, 40%) !default;
-$grey-color-dark:  darken($grey-color, 25%) !default;
+$gray-color:       #828282 !default;
+$gray-color-light: lighten($gray-color, 40%) !default;
+$gray-color-dark:  darken($gray-color, 25%) !default;
 
 $table-text-align: left !default;
 
@@ -50,5 +50,6 @@ $mobile-nav-menu: false;
 @import
   "theme/base",
   "theme/layout",
+  "theme/markdown",
   "theme/syntax-highlighting"
 ;

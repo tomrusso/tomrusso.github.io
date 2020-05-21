@@ -8,7 +8,9 @@
 ########################
 # Site config settings #
 ########################
-title: tom russo . org
+title: &title tom russo . org
+text_title: *title
+html_title: tom&#8201;&#8201;russo&#8197;.&#8197;&#8202;org
 description: The collected works of Thomas Russo
 email: tom@tomrusso.org
 copyright_holder: Thomas Russo

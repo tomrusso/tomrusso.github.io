@@ -1,0 +1,66 @@
+---
+---
+{%- comment -%}
+ %
+ %  Create a plaintext representation of the site.  This renders all posts (pages
+ %  in _posts) to a single ascii text file.  Currently no other pages are included.
+ %
+{%- endcomment -%}
+
+{%- comment -%}
+ %  ==============================================
+ %  Render the site title, surrounded by asterisks
+ %  ==============================================
+{%- endcomment -%}
+{%- assign border_length = site.text_title | size | plus: 6 -%}
+{% for _ in (1..border_length) -%}*{%- endfor %}
+{{ "** " | append: site.text_title | append: " **" }}
+{% for _ in (1..border_length) -%}*{%- endfor -%}
+
+{%-  comment -%}
+ %  =============================
+ %  Assign some variables we need
+ %  =============================
+ %  - It seems that liquid doesn't know about newlines, so we can't use \n.
+ %    But we can get a newline using capture, so that's what we do.
+ %  - para_break is what we use to break paragraphs in the text OUTPUT.
+ %  - code_newline is what we use to RECOGNIZE line breaks in the code in
+ %    the INPUT.
+{%- endcomment -%}
+{%- capture newline %}
+{% endcapture -%}
+{%- assign para_break = newline | append: newline -%}
+{%- assign code_newline = "</span>" | append: newline -%}
+{%- comment -%}
+ %  ===================================
+ %  Loop through posts and display them
+ %  ===================================
+{%- endcomment %}
+{% for post in site.posts %}
+>> {{ post.date | date: "%d %b %Y" }}
+{{ post.title }}
+{% assign post_title_length = post.title | size -%}
+{%- for _ in (1..post_title_length) -%}={%- endfor %}
+{%- assign text_content = post.content 
+                        | replace: code_newline, "</codenewline>"
+                        | strip_newlines
+                        | replace: "</p>", para_break
+                        | replace: "</codenewline>", newline
+                        | replace: "</pre>", para_break
+                        | strip_html
+                        | replace: "&lt;", "<"
+                        | replace: "&gt;", ">"
+                        | replace: "&amp;", "&" %}
+{{ text_content }}
+{% endfor -%}
+
+{%- comment -%}
+ %  =====================================
+ %  Create and place the copyright notice
+ %  =====================================
+{%- endcomment -%}
+{%- capture copyright -%}(c) {% include copyright.txt -%}{%- endcapture -%}
+{%- assign border_length = copyright | size %}
+{% for _ in (1..border_length) -%}~{%- endfor %}
+{{ copyright }}
+{% for _ in (1..border_length) -%}~{%- endfor -%}
