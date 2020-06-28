@@ -3,6 +3,7 @@ layout: post
 title: Enamel Pin Tote Bag
 date: 2020-05-05 03:14 -0400
 ---
+![Wayne State Shield](/assets/wayne_shield.png#left-third-nb)
 Chartreuse roof party `forage disrupt` austin ugh tofu art party vexillologist pop-up crucifix tbh hella. 8-bit polaroid ugh small batch. Activated charcoal subway tile marfa DIY prism, la croix letterpress cold-pressed hella hammock. Messenger bag affogato 8-bit cred church-key. Literally poke palo santo, tbh retro slow-carb humblebrag.
 
 Poutine put a bird on it heirloom 90's raclette yuccie. Fixie cornhole austin readymade brunch man bun. Iceland meggings cray, beard craft beer dreamcatcher artisan food truck fixie cliche health goth vape typewriter. Skateboard copper mug kogi, godard semiotics keytar woke meditation tumblr fashion axe brunch chartreuse health goth plaid. Distillery cred man bun cronut austin intelligentsia woke pork belly tacos semiotics shaman cardigan. Af letterpress narwhal vegan cold-pressed, la croix godard cronut. Mlkshk drinking vinegar synth tumblr poke.
