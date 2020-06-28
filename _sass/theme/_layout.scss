@@ -176,6 +176,12 @@
   @include relative-font-size(1.5);
 }
 
+.read-more
+{
+  color: $gray-color;
+  @include relative-font-size(0.875);
+}
+
 
 
 /*********

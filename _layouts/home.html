@@ -18,7 +18,17 @@ layout: default
           </a>
         </h3>
         {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
+          {%- capture more_link -%}
+            <a href="{{ post.url | relative_url }}">more ...</a>
+          {%- endcapture -%}
+          {%- capture excerpt_end -%}
+            <span class="read-more">[ {{ more_link }} ]</span>
+          {%- endcapture -%}
+          {%- assign excerpt_end = excerpt_end | prepend: "&nbsp;&nbsp;" | append: "</p>" -%}
+          {%- assign excerpt = post.excerpt | replace: "</p>", excerpt_end -%}
+          <div class="markdown-content">
+            {{ excerpt }}
+          </div>
         {%- endif -%}
       </li>
       {%- endfor -%}

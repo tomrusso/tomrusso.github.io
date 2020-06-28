@@ -76,12 +76,22 @@
 		border-radius: 3px;
   }
 
+  img[src$="-nb"]
+  {
+  	border-style: none;
+  }
+
 	// Left align images with float:left, and set right margin.
 	img[src$="#left-quarter"],
 	img[src$="#left-third"],
 	img[src$="#left-half"],
 	img[src$="#left-twothirds"],
-	img[src$="#left-threequarters"]
+	img[src$="#left-threequarters"],
+	img[src$="#left-quarter-nb"],
+	img[src$="#left-third-nb"],
+	img[src$="#left-half-nb"],
+	img[src$="#left-twothirds-nb"],
+	img[src$="#left-threequarters-nb"]
 	{
 		float: left;
 		margin-right: $spacing-unit / 2;
@@ -92,7 +102,12 @@
 	img[src$="#right-third"],
 	img[src$="#right-half"],
 	img[src$="#right-twothirds"],
-	img[src$="#right-threequarters"]
+	img[src$="#right-threequarters"],
+	img[src$="#right-quarter-nb"],
+	img[src$="#right-third-nb"],
+	img[src$="#right-half-nb"],
+	img[src$="#right-twothirds-nb"],
+	img[src$="#right-threequarters-nb"]
 	{
 		float: right;
 		margin-left: $spacing-unit / 2;
@@ -104,7 +119,12 @@
 	img[src$="#center-third"],
 	img[src$="#center-half"],
 	img[src$="#center-twothirds"],
-	img[src$="#center-threequarters"]
+	img[src$="#center-threequarters"],
+	img[src$="#center-quarter-nb"],
+	img[src$="#center-third-nb"],
+	img[src$="#center-half-nb"],
+	img[src$="#center-twothirds-nb"],
+	img[src$="#center-threequarters-nb"]
 	{
 		display: block;
 		margin-left: auto;
@@ -114,7 +134,10 @@
 	// Specify width for quarter-width images.
 	img[src$="#left-quarter"],
 	img[src$="#right-quarter"],
-	img[src$="#center-quarter"]
+	img[src$="#center-quarter"],
+	img[src$="#left-quarter-nb"],
+	img[src$="#right-quarter-nb"],
+	img[src$="#center-quarter-nb"]
 	{
 		width: 25%;		
 	}
@@ -122,7 +145,10 @@
 	// Specify width for third-width images.
 	img[src$="#left-third"],
 	img[src$="#right-third"],
-	img[src$="#center-third"]
+	img[src$="#center-third"],
+	img[src$="#left-third-nb"],
+	img[src$="#right-third-nb"],
+	img[src$="#center-third-nb"]
 	{
 		width: 33%;		
 	}
@@ -130,7 +156,10 @@
 	// Specify width for half-width images.
 	img[src$="#left-half"],
 	img[src$="#right-half"],
-	img[src$="#center-half"]
+	img[src$="#center-half"],
+	img[src$="#left-half-nb"],
+	img[src$="#right-half-nb"],
+	img[src$="#center-half-nb"]
 	{
 		width: 50%;		
 	}
@@ -138,7 +167,10 @@
 	// Specify width for two-third-width images.
 	img[src$="#left-twothirds"],
 	img[src$="#right-twothirds"],
-	img[src$="#center-twothirds"]
+	img[src$="#center-twothirds"],
+	img[src$="#left-twothirds-nb"],
+	img[src$="#right-twothirds-nb"],
+	img[src$="#center-twothirds-nb"]
 	{
 		width: 67%;		
 	}
@@ -146,7 +178,10 @@
 	// Specify width for three-quarter-width images.
 	img[src$="#left-threequarters"],
 	img[src$="#right-threequarters"],
-	img[src$="#center-threequarters"]
+	img[src$="#center-threequarters"],
+	img[src$="#left-threequarters-nb"],
+	img[src$="#right-threequarters-nb"],
+	img[src$="#center-threequarters-nb"]
 	{
 		width: 75%;		
 	}
