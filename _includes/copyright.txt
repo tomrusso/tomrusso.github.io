@@ -27,7 +27,7 @@
 {%- assign final_year = years | last -%}
 
 {%- if first_year == final_year -%}
-  {- first year }} {{ site.copyright_holder -}}
+  {{- first_year }} {{ site.copyright_holder -}}
 {%- else -%}
   {{- first_year }} - {{ final_year }} {{ site.copyright_holder -}}
 {%- endif -%}
